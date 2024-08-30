@@ -18,6 +18,7 @@ app.use(cookieParser());
 //connect to mongoDb database
 connectDB();
 
+
 //Routes setup
 app.use("/api/auth", authRoutes);  //auth routes
 
